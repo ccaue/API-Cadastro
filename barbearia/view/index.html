@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Document</title>
+</head>
+<body onload="listar();">
+    <header>
+        <h1>Cadastro de Clientes</h1>
+    </header>
+
+    <form id="container">
+    	<div class="form-group ">
+        	<div class="form-row mb-3 col-md-4">
+                <label for="inputNome">Nome</label>
+                <input type="text" class="form-control" id="inputNome" placeholder="Digite o seu nome">
+                        
+                <label for="inputSobrenome">Sobrenome</label>
+               	<input type="text" class="form-control" id="inputSobrenome" placeholder="Digite o seu sobrenome">
+
+                <label for="inputTelefone">Telefone</label>
+                <input type="text" class="form-control" id="inputTelefone" placeholder="Digite o seu telefone">
+				
+				<label for="inputEmail">E-mail</label>
+				<input type="text" class="form-control" id="inputEmail" placeholder="Digite o seu e-mail">
+				
+				<label for="inputSenha">Senha</label>
+				<input type="text" class="form-control" id="inputSenha" placeholder="Digite sua senha">
+            </div>
+        </div>
+                
+        <div>
+        	<button type="submit" class="btn btn-success btn-lg" onclick="salvar();">Cadastrar</button>
+        </div>
+    </form>	 
+				
+	<script src="cadastro.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	
+</body>
